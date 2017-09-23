@@ -8,8 +8,10 @@
   </head>
 
   <body>
-    <%= yield %>
-  	
+    <div id="home-page">
+      <%= yield %>
+    </div>
+
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   	<%= javascript_include_tag 'components/home', 'data-turbolinks-track': 'reload' %>
   </body>

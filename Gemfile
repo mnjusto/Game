@@ -49,4 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap', '~> 4.0.0.beta'
+gem 'foundation-rails'
+gem "font-awesome-rails"
 gem "react-rails"
+# gem 'webpacker', '~> 3.0'

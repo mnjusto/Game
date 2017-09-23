@@ -123,7 +123,7 @@ function draw() {
     drawScore();
     drawLives();
     collisionDetection();
-    
+
     if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
         dx = -dx;
     }
@@ -150,14 +150,14 @@ function draw() {
             }
         }
     }
-    
+
     if(rightPressed && paddleX < canvas.width-paddleWidth) {
         paddleX += 7;
     }
     else if(leftPressed && paddleX > 0) {
         paddleX -= 7;
     }
-    
+
     x += dx;
     y += dy;
     requestAnimationFrame(draw);

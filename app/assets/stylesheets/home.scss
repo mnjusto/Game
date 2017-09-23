@@ -1,3 +1,76 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.clearfix:after {
+   display: block;
+   clear: both;
+}
+
+#home-page{
+  .header{
+    background-color: #6666ff;
+    height: 50px;
+  }
+
+}
+
+.rock-paper-scissors{
+  .container{
+    margin: 10px auto 20px;
+    min-height: 300px;
+    max-width: 700px;
+
+    h3{
+      text-align: center;
+    }
+
+    .show-btn{
+      background-color: #6666ff;
+      border: 1px solid #4c4cff;
+      border-radius: 10px;
+      color: #FFF;
+      display: block;
+      height: 62px;
+      margin: 60px auto 0;
+      padding: 20px 20px;
+      width: 82px;
+    }
+
+    .player-cont,
+    .computer-cont{
+      background-color: #FAFAFA;
+      border: 1px solid #ECECEC;
+      border-radius: 10px;
+      font-size: 120px;
+      height: 100%;
+      min-height: 200px;
+      text-align: center;
+    }
+
+    .show-cont{
+      content: " ";
+    }
+
+    .choices-cont{
+      margin-top: 20px;
+      text-align: center;
+      i.fa{
+        cursor: pointer;
+        font-size: 50px;
+        margin: 10px;
+      }
+    }
+
+    .win-text{
+      background-color: #EAEAEA;
+      border: 1px solid #DFDFDF;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 0;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
